@@ -66,7 +66,6 @@ const createDataObj = () => {
   };
 };
 
-// data array setup
 const rentalOffers = new Array(OFFER_COUNT).fill('element').map(() => createDataObj());
 
 export {rentalOffers};
